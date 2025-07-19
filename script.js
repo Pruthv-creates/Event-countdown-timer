@@ -1,4 +1,4 @@
-const eventenddate=new Date("19 July , 2025 13:30:00").getTime();
+const eventenddate=new Date("1 Aug , 2025 12:00:00").getTime();
 const eventstartdate=new Date().getTime();
 
 function updateTime(){
