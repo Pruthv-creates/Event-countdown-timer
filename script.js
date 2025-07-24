@@ -1,5 +1,13 @@
 const eventenddate=new Date("2025-08-01T12:00:00").getTime();
-const eventstartdate=new Date().getTime();
+//const eventstartdate=new Date().getTime();
+
+let eventstartdate= localStorage.getItem("eventstartdate");
+if (!eventstartdate) {
+    eventstartdate = new Date().getTime();
+    localStorage.setItem("eventstartdate", eventstartdate);
+} else {
+    eventstartdate = parseInt(eventstartdate);
+}
 
 function updateTime(){
 
