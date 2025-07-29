@@ -1,4 +1,4 @@
-const eventenddate=new Date("2025-08-01T12:00:00").getTime();
+const eventenddate=new Date("2025-08-10T12:00:00").getTime();
 //const eventstartdate=new Date().getTime();
 
 let eventstartdate= localStorage.getItem("eventstartdate");
